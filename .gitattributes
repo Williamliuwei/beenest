@@ -1,7 +1,7 @@
-*.yml linguist-language=Java 
-*.html linguist-language=Java 
-*.js linguist-language=Java 
-*.xml linguist-language=Java
-*.css linguist-language=Java
-*.tsx linguist-language=Java
-*.ts linguist-language=Java
+*.yml linguist-language=TypeScript 
+*.html linguist-language=TypeScript 
+*.js linguist-language=TypeScript 
+*.xml linguist-language=TypeScript
+*.css linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.ts linguist-language=TypeScript
