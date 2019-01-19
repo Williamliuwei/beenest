@@ -1,0 +1,20 @@
+{
+  "extends": ["tslint-config-alloy"],
+  "linterOptions": {
+      "exclude": ["**/node_modules/**"]
+  },
+  "rules": {
+     // 这里填入你的项目需要的个性化配置，比如：
+        //
+        // // 一个缩进必须用两个空格替代
+        // // @has-fixer 可自动修复
+        // // @prettier 可交由 prettier 控制
+        // "indent": [true, "spaces", 2]
+        // 属性参见 ：https://github.com/AlloyTeam/tslint-config-alloy
+        "ordered-imports":false, //导入时 不需要按字母排序
+        "no-inferrable-types":false,
+        "member-ordering":false,
+        "no-magic-numbers":false,//使用魔法数字
+        "no-string-literal":false
+  }
+}
